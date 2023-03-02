@@ -40,7 +40,7 @@ vector<string> readWordListFromFile(const string& filePath)
 
     return wordList;
 }
-
+ //nop bai thu
 /***
     Args:
         ch (char): A character
