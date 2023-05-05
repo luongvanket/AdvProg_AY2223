@@ -1,4 +1,5 @@
 #include "painter.h"
+#include<math.h>
 
 /***
     Args: color (SDL_Color): color value 
@@ -6,7 +7,7 @@
     Returns:
         None
 ***/
-void Painter::setColor(SDL_Color color) 
+void Painter::setColor(SDL_Color color c) 
 { 
     // TODO: set the color value for the Painter and set Render Draw Color
     color = c;
